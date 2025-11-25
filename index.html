@@ -3,109 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros | Logística Pro</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚚</text></svg>">
-    <!-- Vinculamos el CSS -->
+    <title>Examen Semestral | Optimización Logística</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Fuentes de Google (Roboto para textos modernos) -->
+    <!-- Fuentes e Iconos -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Iconos de FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Icono de camión -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
 </head>
 <body>
 
     <!-- Barra de Navegación -->
     <nav class="navbar">
         <div class="container nav-container">
-            <div class="logo">Logística<span>Pro</span></div>
+            <div class="logo">Proyecto<span>Semestral</span></div>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#" class="active">Sobre Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#fases">Metodología</a></li>
+                <li><a href="#video">Video</a></li>
             </ul>
-            <div class="burger">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
 
-    <!-- Sección Hero (Encabezado) -->
+    <!-- Header: Título del Proyecto (Requisito: Vincular Matemática y Área de Estudio) -->
     <header class="hero">
         <div class="hero-overlay">
             <div class="container hero-content">
-                <h1>Impulsando el comercio global</h1>
-                <p>Más que transporte, somos tu aliado estratégico en la cadena de suministro.</p>
+                <span class="badge">Licenciatura en Adm. de Empresas Marítimas</span>
+                <h1>Optimización Logística en PYME Portuaria</h1>
+                <p>Implementación de modelos matemáticos para mejorar la eficiencia en la descarga de contenedores.</p>
+                <a href="#fases" class="btn">Ver Investigación</a>
             </div>
         </div>
     </header>
 
-    <!-- Sección Quiénes Somos -->
-    <section class="about-section">
+    <!-- FASE 1: Planificación y Definición del Problema -->
+    <section id="problema" class="about-section">
         <div class="container about-grid">
             <div class="about-text">
-                <h2>Nuestra Historia</h2>
-                <p>En <strong>Logística Pro</strong>, nacimos con una misión clara: simplificar lo complejo. Con más de 15 años de experiencia en el mercado, hemos evolucionado desde una pequeña flota local hasta convertirnos en un referente internacional.</p>
-                <p>Entendemos que detrás de cada paquete hay una promesa. Por eso, utilizamos tecnología de punta para asegurar que tu carga llegue a tiempo y en perfectas condiciones.</p>
-                <a href="#" class="btn">Conoce al equipo</a>
+                <div class="phase-tag">Fase 1: Planificación</div>
+                <h2>Definición del Problema</h2>
+                <p><strong>El Desafío:</strong> Se detectó una congestión recurrente en el muelle de carga de la PYME local, generando retrasos del 25% en la entrega.</p>
+                <p><strong>Hipótesis Matemática:</strong> Mediante la aplicación de un <em>Modelo de Programación Lineal</em> y <em>Teoría de Colas</em>, es posible reducir el tiempo de espera, optimizando la asignación de grúas según el flujo de llegada estocástico.</p>
             </div>
             <div class="about-image">
-                <!-- Imagen de logística desde Unsplash -->
-                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Almacén Logístico">
+                <!-- Imagen alusiva a datos o puerto -->
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Análisis de Datos">
             </div>
         </div>
     </section>
 
-    <!-- Sección de Valores / Estadísticas -->
-    <section class="values-section">
+    <!-- FASE 2: Ejecución y Evidencias -->
+    <section id="fases" class="values-section">
         <div class="container">
-            <h2>Por qué elegirnos</h2>
+            <h2>Fases del Proyecto (Metodología)</h2>
+            <p style="margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Siguiendo los pasos del diseño metodológico para la recolección de datos y generación de evidencias.
+            </p>
+            
             <div class="values-grid">
+                <!-- Paso 1 -->
                 <div class="value-card">
-                    <i class="fas fa-shipping-fast"></i>
-                    <h3>Rapidez</h3>
-                    <p>Optimización de rutas para entregas en tiempo récord.</p>
+                    <div class="step-number">01</div>
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3>Recolección de Datos</h3>
+                    <p>Registro de 200 puntos de datos sobre tiempos de servicio y llegada de camiones en campo.</p>
                 </div>
+                <!-- Paso 2 -->
                 <div class="value-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h3>Seguridad</h3>
-                    <p>Monitoreo 24/7 de tu mercancía en cada etapa.</p>
+                    <div class="step-number">02</div>
+                    <i class="fas fa-calculator"></i>
+                    <h3>Modelado Matemático</h3>
+                    <p>Codificación del algoritmo de optimización (Python/Excel) para minimizar tiempos muertos.</p>
                 </div>
+                <!-- Paso 3 -->
                 <div class="value-card">
-                    <i class="fas fa-globe-americas"></i>
-                    <h3>Cobertura Global</h3>
-                    <p>Conexiones en más de 50 países alrededor del mundo.</p>
+                    <div class="step-number">03</div>
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Resultados</h3>
+                    <p>Reducción simulada del 15% en tiempos de espera, validando la hipótesis inicial.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pie de Página -->
+    <!-- Requisito: VIDEO RESUMEN -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <h2>Video Resumen del Proyecto</h2>
+            <p>Evidencia visual del desarrollo y conclusiones.</p>
+            
+            <!-- Aquí iría tu video de YouTube. He puesto uno de ejemplo -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FASE 3: Conclusiones y Equipo -->
+    <section class="team-section">
+        <div class="container">
+            <h2>Equipo de Investigación</h2>
+            <p>Estudiantes del Centro Regional Universitario de Colón</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <i class="fas fa-user-graduate"></i>
+                    <h4>Estudiante 1</h4>
+                    <p>Recolección de Datos</p>
+                </div>
+                <div class="team-member">
+                    <i class="fas fa-user-graduate"></i>
+                    <h4>Estudiante 2</h4>
+                    <p>Análisis Matemático</p>
+                </div>
+                <div class="team-member">
+                    <i class="fas fa-user-graduate"></i>
+                    <h4>Estudiante 3</h4>
+                    <p>Documentación</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Actualizado -->
     <footer>
         <div class="container footer-content">
             <div class="footer-col">
-                <h3>LogísticaPro</h3>
-                <p>Soluciones integrales para tu negocio.</p>
+                <h3>Examen Semestral</h3>
+                <p>
+                    Proyecto de vinculación Matemática - Marítima.
+                    <br>
+                    <span style="font-size: 0.9rem; opacity: 0.8;">Universidad de Panamá - CRU Colón</span>
+                </p>
             </div>
             <div class="footer-col">
-                <h4>Enlaces</h4>
+                <h4>Enlaces Rápidos</h4>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Servicios</li>
-                    <li>Privacidad</li>
+                    <li><a href="#problema">Planteamiento</a></li>
+                    <li><a href="#fases">Fases</a></li>
+                    <li><a href="#video">Video</a></li>
                 </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contacto</h4>
-                <p><i class="fas fa-envelope"></i> info@logisticapro.com</p>
-                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2024 Logística Pro. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Licenciatura en Administración de Empresas Marítimas.</p>
         </div>
     </footer>
 
 </body>
 </html>
-
